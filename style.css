@@ -1,0 +1,54 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profile-pic {
+    float:left;
+    margin-right: 30px;
+    border-radius: 5%;
+}
+
+.top-level {
+    margin: auto;
+    margin-bottom: 70px;
+    width: 55%;
+}
+
+.content {
+    clear:both;
+    width: 55%;
+    text-align: justify;
+    margin: auto;
+}
+
+.top-level > p, .top-level > h2 {
+    margin: 10px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+.left-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-right > * {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.content > h2 {
+        color: midnightblue;
+}
+
